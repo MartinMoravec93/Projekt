@@ -1,0 +1,118 @@
+body {
+    min-width: 960px;
+    background: rgba(158, 155, 155, 0.733);
+}
+
+body > header {
+    background: black;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+}
+
+.hlavni h1 {
+    color: white;
+    font-size: 20px;
+    margin: auto 18px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;  
+}
+
+nav ul a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+    padding: 0 7px;
+}
+
+nav li {
+    margin: 7px;
+}
+
+a:hover {
+    color: gray;
+}
+
+section {
+    padding: 30px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+
+table {
+    width: 94%;
+    margin: 0 auto;
+    text-align: left;
+    display: auto;
+    overflow-x: auto;
+    border-spacing: 0;
+}
+
+tr {
+    height: 3rem;
+}
+
+h2 {
+    margin: 55px;
+}
+
+img {
+    float: left;
+    margin: 0 65px 0 50px;
+    width: 9rem;
+}
+
+input {
+    height: 2.6rem;
+    width: 23rem;
+    margin: 0 15px 0 20px;
+    border-radius: 6px;
+    
+}
+
+.button {
+    text-align: center;
+}
+
+button:hover{
+    background: rgb(10, 146, 236);
+
+}
+button {
+    color: white;
+    background: #5e5d5a;
+    font-family: Arial;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+    height: 2.5rem;
+    width: 8rem;
+    margin: 30px;
+}
+
+form p {
+    font-weight: bold;
+    margin: 15px 280px;
+}
+
+span {
+    margin-left: 370px;
+}
+
+.span {
+    margin-left: 390px
+}
+
+
